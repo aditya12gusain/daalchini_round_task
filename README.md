@@ -1,68 +1,78 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Daalchini Hiring Challenge Task
 
-## Available Scripts
+This is a frontend of e-commerce app using React, Chakra-Ui, React Icons.
 
-In the project directory, you can run:
+## Authors
 
-### `npm start`
+- [@adityagusain](https://www.github.com/aditya12gusain)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Output Link
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+https://daalchini-test.netlify.app/
+Hosted on netlify
 
-### `npm test`
+## Installation and Run
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install daalchini_round_task with npm
 
-### `npm run build`
+```bash
+  git clone https://github.com/aditya12gusain/daalchini_round_task.git
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  cd daalchini_round_task
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  npm start
+```
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Products Page
+  - List of Products
+  - Add Product to Cart
+  - Increate Product Count
+  - Decrease Product Count
+  - Open Cart Button
+  - Login or Continue to Checkout
+- Login Modal
+  - Enter Phone No and store it in Local Storage
+- Cart
+  - Increate Product Count
+  - Decrease Product Count
+  - Delete Product From Cart
+  - Sub Total of Cart
+- Checkout
+  - Increate Product Count
+  - Decrease Product Count
+  - Delete Product From Cart
+  - Sub Total of Cart
+  - Redirect to product page if user is not logged in
+- Order Confirmed
+  - Redirect Link to go to product Page
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Optimizations
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+User details and cart details are stored in Local Storage of the device automatically so that even on reload of the page the state of the app presists.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Every UI element is made to be responsive, and works perfectly on all devices.
 
-## Learn More
+## Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Client:** React, React Context API, Chakra-Ui, React Icons, React Router Dom V6
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screenshots
 
-### Code Splitting
+Product Page
+![Product Page](https://res.cloudinary.com/one-click/image/upload/v1659601038/daalchini/screencapture-daalchini-test-netlify-app-2022-08-04-13_44_12_preakx.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Cart Page
+![Cart Page](https://res.cloudinary.com/one-click/image/upload/v1659601038/daalchini/cart_v8t4yf.png)
 
-### Analyzing the Bundle Size
+Login Page
+![Login Page](https://res.cloudinary.com/one-click/image/upload/v1659601038/daalchini/login_m17p0m.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Checkout Page
+![Checkout Page](https://res.cloudinary.com/one-click/image/upload/v1659601038/daalchini/screencapture-daalchini-test-netlify-app-checkout-2022-08-04-13_45_47_mckgxl.png)
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Order Confirm Page
+![Order Confirm Page](https://res.cloudinary.com/one-click/image/upload/v1659601038/daalchini/screencapture-daalchini-test-netlify-app-order-placed-2022-08-04-13_46_03_zi0jgj.png)
