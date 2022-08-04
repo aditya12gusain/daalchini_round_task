@@ -21,7 +21,7 @@ const Products = () => {
         </Text>
 
         <Grid
-          gap={5}
+          gap={{ base: 3, md: 5 }}
           templateColumns={{
             base: 'repeat(2, 1fr)',
             md: 'repeat(3, 1fr)',
