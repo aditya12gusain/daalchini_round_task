@@ -28,6 +28,7 @@ const CheckoutBar = () => {
       position: 'top-right',
     });
     setCart([]);
+    localStorage.setItem('cart', JSON.stringify([]));
     navigate('/order-placed');
   };
 
