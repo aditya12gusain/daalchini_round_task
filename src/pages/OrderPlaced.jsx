@@ -17,7 +17,7 @@ const OrderPlaced = () => {
       color={'white'}
       gap={5}
     >
-      <Text fontSize={40} fontFamily={'monospace'}>
+      <Text fontSize={40} fontFamily={'monospace'} textAlign="center">
         Order Confirmed
       </Text>
       <FaRegCheckCircle fontSize={50} />
